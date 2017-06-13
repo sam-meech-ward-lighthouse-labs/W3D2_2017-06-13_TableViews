@@ -13,6 +13,9 @@
 		2285E6A71EF044CF0006344E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2285E6A61EF044CF0006344E /* Assets.xcassets */; };
 		2285E6AA1EF044CF0006344E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2285E6A81EF044CF0006344E /* LaunchScreen.storyboard */; };
 		2285E6AD1EF044CF0006344E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2285E6AC1EF044CF0006344E /* main.m */; };
+		2285E6B51EF04ACC0006344E /* FoodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2285E6B41EF04ACC0006344E /* FoodTableViewCell.m */; };
+		2285E6B81EF04C8B0006344E /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2285E6B71EF04C8B0006344E /* RecipeViewController.m */; };
+		2285E6BB1EF059AA0006344E /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2285E6BA1EF059AA0006344E /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		2285E6A91EF044CF0006344E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2285E6AB1EF044CF0006344E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2285E6AC1EF044CF0006344E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2285E6B31EF04ACC0006344E /* FoodTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodTableViewCell.h; sourceTree = "<group>"; };
+		2285E6B41EF04ACC0006344E /* FoodTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodTableViewCell.m; sourceTree = "<group>"; };
+		2285E6B61EF04C8B0006344E /* RecipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeViewController.h; sourceTree = "<group>"; };
+		2285E6B71EF04C8B0006344E /* RecipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
+		2285E6B91EF059A90006344E /* MyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		2285E6BA1EF059AA0006344E /* MyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +69,14 @@
 			children = (
 				2285E69D1EF044CF0006344E /* AppDelegate.h */,
 				2285E69E1EF044CF0006344E /* AppDelegate.m */,
+				2285E6B91EF059A90006344E /* MyTableViewController.h */,
+				2285E6BA1EF059AA0006344E /* MyTableViewController.m */,
 				2285E6A01EF044CF0006344E /* ViewController.h */,
 				2285E6A11EF044CF0006344E /* ViewController.m */,
+				2285E6B31EF04ACC0006344E /* FoodTableViewCell.h */,
+				2285E6B41EF04ACC0006344E /* FoodTableViewCell.m */,
+				2285E6B61EF04C8B0006344E /* RecipeViewController.h */,
+				2285E6B71EF04C8B0006344E /* RecipeViewController.m */,
 				2285E6A31EF044CF0006344E /* Main.storyboard */,
 				2285E6A61EF044CF0006344E /* Assets.xcassets */,
 				2285E6A81EF044CF0006344E /* LaunchScreen.storyboard */,
@@ -142,8 +157,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2285E6A21EF044CF0006344E /* ViewController.m in Sources */,
+				2285E6B51EF04ACC0006344E /* FoodTableViewCell.m in Sources */,
 				2285E6AD1EF044CF0006344E /* main.m in Sources */,
+				2285E6BB1EF059AA0006344E /* MyTableViewController.m in Sources */,
 				2285E69F1EF044CF0006344E /* AppDelegate.m in Sources */,
+				2285E6B81EF04C8B0006344E /* RecipeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
