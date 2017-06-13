@@ -35,6 +35,7 @@
 		2285E6B71EF04C8B0006344E /* RecipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
 		2285E6B91EF059A90006344E /* MyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
 		2285E6BA1EF059AA0006344E /* MyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		2285E6BC1EF0606D0006344E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				2285E69D1EF044CF0006344E /* AppDelegate.h */,
+				2285E6BC1EF0606D0006344E /* README.md */,
 				2285E69E1EF044CF0006344E /* AppDelegate.m */,
 				2285E6B91EF059A90006344E /* MyTableViewController.h */,
 				2285E6BA1EF059AA0006344E /* MyTableViewController.m */,
